@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+	
+	background-color: white;
+}
+table{
+	width : 75%;
+	position : right;
+	border: 1px solid black;
+}
+td {
+	border: thin solid;
+	text-align: center;
+	font-size: 140%;
+}
+th{
+	border: thin solid;
+	text-align: center;
+	background-color: #D0E3FA;
+	
+} 
+#photo {
+	
+	border: 2px solid black;
+    float: right;
+}
+#link{
+	
+	width: 40%;
+	margin: auto;
+	font-size: 140%;
+}
+#tableau{
+	
+	margin: auto;
+	width: 100%;
+}
+#textError{
+	
+	color:red;
+	margin: auto;
+	width:70%;
+	font-size: 140%;
+}
