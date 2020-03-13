@@ -1,0 +1,17 @@
+body {
+	background-image: url(../image/fondWelcome.jpg);
+}
+
+section {
+	text-align: center;
+	color: white;
+	background-color: green;
+	opacity: 0.5;
+}
+#working{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+	border: 1px solid black;
+}

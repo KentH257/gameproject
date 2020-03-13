@@ -1,0 +1,16 @@
+org\gameproject\config\WebMvcConfig.class
+org\gameproject\exception\ResourceNotFoundException.class
+org\gameproject\servlets\ListeUtilisateur.class
+org\gameproject\controller\UserController.class
+org\gameproject\config\AppInitializer.class
+org\gameproject\service\UserService.class
+org\gameproject\service\UserServiceImpl.class
+org\gameproject\forms\CreationUtilisateurForm.class
+org\gameproject\entities\Utilisateur.class
+org\gameproject\config\PersistenceJPAConfig.class
+org\gameproject\servlets\CreationUtilisateur.class
+org\gameproject\forms\FormValidationException.class
+org\gameproject\dao\UtilisateurDao.class
+org\gameproject\servlets\SuppressionUtilisateur.class
+org\gameproject\dao\DAOException.class
+org\gameproject\repository\UserRepository.class

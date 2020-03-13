@@ -12,7 +12,7 @@
     <jsp:include page="_menu.jsp" />
  
 
-
+<div id="GreenBg">
 <h2>Mon compte :</h2>
 
 
@@ -61,5 +61,6 @@
     </c:if>
 
 <h4><a href="http://localhost:8080/gameproject/userInfo">Retour</a></h4>
+</div>
 </body>
 </html>

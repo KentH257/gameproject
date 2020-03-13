@@ -1,0 +1,13 @@
+body {
+	background-image: url(../image/fondWelcome.jpg);
+}
+#GreenBg {
+	background-color: rgba(0, 128, 0, .5); 
+	color: black;
+}
+button {
+	background-color: rgba(0, 100, 0, .1); 
+}
+#UaD{
+	background-color: rgba(0, 0, 0, .5); 
+}

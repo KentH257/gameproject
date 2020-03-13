@@ -1,0 +1,13 @@
+#compte{
+	position: absolute;
+	top: 35%;
+    left: 45%;
+    font-size: 40px;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+#test{
+	position: absolute;
+	top: 50%;
+    left: 45%;
+}

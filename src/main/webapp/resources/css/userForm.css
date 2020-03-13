@@ -1,0 +1,8 @@
+body {
+	background-image: url(../image/fondForm.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#panel{
+	background-color: rgba(256, 256, 256, .5); 
+}

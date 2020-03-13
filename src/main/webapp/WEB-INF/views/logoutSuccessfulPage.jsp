@@ -1,12 +1,13 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+<link href="<c:url value="/resources/css/general.css" />"
+	rel="stylesheet">
 <html>
 <head>
 <title>Logout</title>
 </head>
 <body>
     <jsp:include page="_menu.jsp" />
- 
+ <div id="GreenBg">
     <h2>Vous vous êtes déconnecté, A bientôt !</h2>
     
     <ul>
@@ -17,6 +18,6 @@
     <br/>
     <br/>
     <a href= "<c:url value ="http://localhost:8080/gameproject/login"/>">Retour à la page de connexion !</a>
-    
+    </div>
 </body>
 </html>

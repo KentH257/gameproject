@@ -1,0 +1,19 @@
+body{
+	background-image: url(../image/fondLogin.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section{
+	padding-top : 100px;
+	text-align: center;
+}
+form{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+}
+#valide{
+	padding: 2px;
+	width: 267%;
+}

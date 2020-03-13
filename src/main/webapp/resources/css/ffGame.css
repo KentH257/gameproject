@@ -1,0 +1,202 @@
+body {
+	background-image: url("/gameproject/resources/image/img/bg_splash.webp");
+	background-repeat: no-repeat;
+	background-size: 110%;
+	color: white;
+	margin: 0%;
+}
+
+#combattant {
+	float : top;
+	display: flex;
+	position: left;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+#stats {
+	background-color: #0000a0;
+	opacity: 0.7;
+	display: flex;
+	justify-content: space-between;
+	overflow: auto;
+	
+}
+
+#myStats {
+	
+	
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+#ennemiStats {
+	
+	width: 35%;
+	display: flex; 
+	flex-direction: column;
+	border: 1px solid black;
+	
+	
+}
+
+h3 {
+	margin-top: 10px;
+	line-height: 5px;
+}
+
+#information {
+	background-color: #0000a0;
+	opacity: 0.7;
+	float: left;
+	text-align: center;
+	width: 25%;
+}
+
+#journal {
+	background-color: #0000a0;
+	opacity: 0.7;
+	line-height: 5px;
+	position: center;
+	text-align: center;
+	width: 100%;
+}
+
+#choix {
+	line-height: 5px;
+}
+
+#bouton {
+	padding: 10px 110px;
+	display: block position: center;
+}
+
+#attaque {
+	color: white;
+	background-color: blue;
+	width: 100%;
+	cursor: pointer;
+	padding: 10px;
+	margin: 1px;
+}
+
+#objet {
+	color: white;
+	background-color: blue;
+	width: 100%;
+	cursor: pointer;
+	padding: 10px;
+	margin: 1px;
+}
+
+#magie {
+	color: white;
+	background-color: blue;
+	width: 100%;
+	cursor: pointer;
+	padding: 10px;
+	margin: 1px;
+}
+
+#fuir {
+	color: white;
+	background-color: blue;
+	width: 100%;
+	cursor: pointer;
+	padding: 10px;
+	margin: 1px;
+}
+
+#infoCombat {
+	overflow: auto;
+	height: 170px;
+}
+
+#all {
+	display: flex;
+}
+#Player{
+	background-color: #0000a0;
+	text-align: center;
+	padding: 10px;
+	margin: 0%;
+	border : 1px solid silver;
+}
+#pVie {
+	background-color: red;
+	text-align: center;
+	padding: 10px;
+	margin: 0%;
+	border-top: 1px solid silver;
+	
+}
+
+#pMagie {
+	background-color: green;
+	text-align: center;
+	padding: 10px;
+	margin: 0%;
+	border-top: 1px solid silver;
+	
+}
+#charge {
+	background-color: #ff8040;
+	padding: 10px;
+	border-top: 1px solid silver;
+}
+#pVieE {
+	background-color: red;
+	text-align: center;
+	padding: 10px;
+	margin: 0%;
+	border : 1px solid blue;
+	width: 96%;
+}
+
+#pMagieE {
+	background-color: green;
+	text-align: center;
+	padding: 10px;
+	margin: 0%;
+	border : 1px solid blue;
+}
+
+#chargeE {
+	background-color: #ff8040;
+	padding: 10px;
+	border : 1px solid blue;
+}
+#backG{
+	background-color : grey;
+}
+#backGM{
+	
+}
+#backGV{
+	
+}
+#backGC{
+	
+}
+#infoStats{
+}
+#Hp{
+	background-color: #0000a0;
+	margin: 0%;
+}
+#Mp{
+	background-color: #0000a0;
+	margin: 0%;
+	
+}
+#infoCharge{
+	background-color: #0000a0;
+	margin: 0%;
+	
+}
+audio{
+	display: none;
+}

@@ -11,6 +11,8 @@
 <title>Inscription</title>
 <link href="<c:url value="/resources/css/bootstrap.min.css" />"
  rel="stylesheet">
+ <link href="<c:url value="/resources/css/userForm.css" />"
+	rel="stylesheet">
 <script src="<c:url value="/resources/js/jquery-1.11.1.min.js" />"></script>
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
 
@@ -20,10 +22,10 @@
 	
  <div class="container">
   <div class="col-md-offset-2 col-md-7">
-   <h3 class="text-center">Test formulaire</h3>
-   <div class="panel panel-info">
+   <h3 class="text-center">Modifier vos informations</h3>
+   <div class="panel panel-info" id="panel">
     <div class="panel-heading">
-     <div class="panel-title">Ajouter Utilisateur</div>
+     <div class="panel-title">Utilisateur</div>
     </div>
     <div class="panel-body">
      <form:form action="saveUpdate" cssClass="form-horizontal"

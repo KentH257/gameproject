@@ -94,7 +94,7 @@ public class UserController {
 		/*
 		 * log.debug message will appears only during a debug launch
 		 */
-		LOG.debug("la j'pige pas exactement");
+		LOG.debug("***************************** DEBUG *****************************");
 		Utilisateur theUser = new Utilisateur();
 		theModel.addAttribute("utilisateur", theUser);
 		return "user-form";
@@ -407,5 +407,13 @@ public class UserController {
 		   model.addObject("image", path);
 		   
 	       return model;
+	   }
+	   @GetMapping("/userInfo/ffGame")
+	   public String GameOn(Model model) {
+	       return "ffGame";
+	   }
+	   @GetMapping("/userInfo/compteur")
+	   public String account(Model model) {
+	       return "compteur";
 	   }
 }

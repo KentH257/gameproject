@@ -8,6 +8,8 @@
 <title>Liste Utilisateur</title>
 <link href="<c:url value="/resources/css/bootstrap.min.css" />"
  rel="stylesheet">
+ <link href="<c:url value="/resources/css/general.css" />"
+	rel="stylesheet">
 <%@ page isELIgnored="false"%>
 <script src="<c:url value="/resources/js/jquery-1.11.1.min.js" />"></script>
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
@@ -55,8 +57,8 @@
         <td>${tempUtilisateur.email}</td>
 
         <td>
-         <!-- display the update link --> <a href="${updateLink}">Update</a>
-         | <a href="${deleteLink}"
+         <!-- display the update link --> <a href="${updateLink}" id="UaD">Update</a>
+          <a href="${deleteLink}" id="UaD"
          onclick="if (!(confirm('Are you sure you want to delete this customer?'))) return false">Delete</a>
         </td>
 

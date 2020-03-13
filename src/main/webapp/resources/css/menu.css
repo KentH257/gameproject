@@ -1,0 +1,19 @@
+#menu {
+ border: 1px solid #ccc;
+	padding: 5px;
+	margin-bottom: 20px;
+	background-color : #808080;
+	opacity : 0.6;
+	color: white;
+	padding: 15px;
+}
+
+a {
+	color: white;
+	margin : 20px;
+	font-size: 125%;
+}
+#date{
+	float: right;
+	font-size: 19px;
+}
